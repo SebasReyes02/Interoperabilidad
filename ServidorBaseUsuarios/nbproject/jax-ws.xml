@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jax-ws xmlns="http://www.netbeans.org/ns/jax-ws/1">
+  <services>
+    <service name="Servicios">
+      <implementation-class>webserviceusu.Servicios</implementation-class>
+    </service>
+    <service name="ServiciosR">
+      <implementation-class>webservicerol.ServiciosR</implementation-class>
+    </service>
+    <service name="ServiciosUR">
+      <implementation-class>webserviceusurol.ServiciosUR</implementation-class>
+    </service>
+  </services>
+  <clients/>
+  <jsr109>false</jsr109>
+</jax-ws>
